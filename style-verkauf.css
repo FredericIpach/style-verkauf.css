@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, hr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+}
+
+
+html {
+    background: url(https://www.hrn-versand.eu/bg_footer.png) repeat-x 0 100% #f9f7f7;
+}
+
+body {
+    background: url(https://www.hrn-versand.eu/bg_header.png) repeat-x 0 0 transparent;
+    font-family:Arial,sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #6f6f6e;
+    padding-bottom: 50px;
+}
+
+
+
+#bm_container {
+
+    background-color: transparent;
+    -moz-box-shadow: 1px 2px 13px rgba(0,0,0,.75);
+    -webkit-box-shadow: 1px 2px 13px rgba(0,0,0,.75);
+    box-shadow: 1px 2px 13px rgba(0,0,0,.75);
+    position: relative;
+
+}
+#bm_header {}
+
+
+#bm_top_menu_ul {
+
+}
+#bm_top_menu_ul a {color:white;text-decoration:none;}
+#bm_top_menu_ul a:hover {color:red;}
+
+#bm_container {width:1000px;margin:0 auto;}
+#bm_header {position:relative;
+    height: 187px;
+
+}
+#bm_top_menu {
+    position: relative;
+    height: 48px;
+    border: 1px solid #6F6F6D;
+    border-bottom-width: 5px;
+    background-color: #027DBD;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…AiIHdpZHRoPSI5NjgiIGhlaWdodD0iNTAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+    background-image: -o-linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+    background-image: -webkit-linear-gradient(bottom, #027DBD 0%, #0193DD 100%);
+    background-image: linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+}
+#bm_content {
+    padding: 32px 10px;background-color: white;
+}
+#bm_footer {
+border-top: 5px solid #acacac;background-color:white;
+}
+#bm_copyright {line-height:30px;position:relative;background-color: #666666;}
+
+#bm_header_logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#bm_header_service {
+    position: absolute;
+    left: 425px;
+    top: 35px;
+    text-align: center;
+}
+#bm_header_pic {position:absolute;right:0;top:0;}
+
+#bm_top_menu_ul,
+#bm_top_menu_ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#bm_top_menu_ul {}
+
+#bm_top_menu_ul li {
+    float: left;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 48px;
+    border-left: 1px solid #6F6F6E;
+}
+
+#bm_top_menu_ul li a {
+    padding: 0 20px;
+
+}
+
+#bm_top_menu_ul li:first-child {
+    border-left: none;
+}
+
+#bm_top_menu_ul li:hover,
+#bm_top_menu_ul li.active {
+    background: #fff;
+}
+
+#bm_top_menu_ul li:hover a,
+#bm_top_menu_ul li.active a {
+    color: #027DBD;
+}
+
+
+
+
+#bm_content_left {width:290px;float:left;}
+#bm_content_right {width:670px;float:right;}
+
+#bm_footer_service {width:333px;float:left;}
+#bm_footer_allgemein {width:333px;float:left;}
+#bm_footer_zahlung {width:333px;float:left;}
+
+#bm_copyright_copy { color: #fff; float: left; padding-left: 50px;}
+#bm_copyright_4market {float: right; padding: 7px 50px 0 0;}
+
+#bm_content_left_usp {
+   margin-bottom: 20px;
+}
+
+#bm_content_left_usp li {
+    list-style: none;
+}
+
+#bm_content_left_usp li img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#bm_content_left_zahlung {margin-bottom:20px;}
+#bm_content_left_zahlung img {
+    padding-right: 10px;
+}
+#bm_content_left_hinweise {margin-bottom:20px;}
+#bm_content_left_seller {margin-bottom:20px;}
+
+.bm_content_left_usp_h1 {}
+.bm_content_left_usp_desc {}
+.bm_content_left_usp_ul {list-style:none;}
+.bm_content_left_usp_ul li {margin:10px 0;padding-left:20px;background:url(https://www.hrn-versand.eu/ul-pfeil.png) no-repeat 0 5px;}
+
+#bm_content_right_mainimg {margin-bottom:20px;}
+#bm_content_right_moreimg {margin-bottom:20px;}
+#bm_content_right_desc {margin-bottom:20px;}
+.bm_content_right_info,
+.bm_content_left_info{
+    margin-bottom:20px;
+    border: 1px solid #acacac;
+    padding: 0 10px 10px;
+}
+
+#bm_content_right_desc_h1 {margin-bottom:20px;}
+#bm_content_right_desc_h2 {margin-bottom:20px;}
+#bm_content_right_desc_artnr {margin-bottom:20px;}
+#bm_content_right_desc_artdesc {margin-bottom:20px;}
+#bm_content_right_desc_artdel {}
+
+.bm_content_right_info_h1,
+.bm_content_left_usp_h1{
+    line-height: 30px;
+    margin: 0 -10px 10px;
+    padding: 0 10px;
+    background-color: #027dbd;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDY2OCAzMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDI3ZGJkIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDE5M2RkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI2NjgiIGhlaWdodD0iMzAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+    background-image: -o-linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+    background-image: -webkit-linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+    background-image: linear-gradient(bottom, #027dbd 0%, #0193dd 100%);
+
+    color: #fff;;
+
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.bm_content_right_info_desc {}
+.bm_content_right_info_ul {list-style:none;}
+.bm_content_right_info_ul li {margin:10px 0;padding-left:20px;background:url(https://www.hrn-versand.eu/ul-pfeil.png) no-repeat 0 5px;}
+
+#bm_content_right_desc_artdesc ul {
+padding-left: 30px;
+}
+
+.bm_header_service_h1 {
+    color: #0293dd;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.bm_header_service_h2,
+#bm_header_service a {
+    color: #6f6f6e;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#bm_header_service a:hover {
+    text-decoration: underline;
+}
+.bm_header_service_h3 {}
+
+.bm_footer_h4 {
+    color: #0293DD;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6F6F6E;
+    margin-bottom: 10px;
+}
+.bm_footer_ul {list-style:none;}
+.bm_footer_ul li {
+    background: url(https://www.hrn-versand.eu/li_footer.png) no-repeat 0 50%;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.bm_footer_ul li a {
+    color: #6F6F6E;
+    text-decoration: none;
+}
+.bm_footer_ul li a:hover {
+    color: #0293DD;
+    text-decoration: none;
+}
+.bm_clear {clear:both;}
+.bm_main_rand {padding: 20px 50px;}
+
+
+.slider {
+    padding: 32px 10px;
+    border: 1px solid #acacac;
+    margin-bottom: 20px;
+}
+
+#bm_product_image {
+    border: 1px solid #acacac;
+    text-align: center;
+    margin-bottom: 20px;
+}
